@@ -1,0 +1,229 @@
+@import "https://fonts.googleapis.com/css?family=Oswald:400,700";
+@import 'https://fonts.googleapis.com/css?family-Montserrat:400,700';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+
+body {
+		margin:0;
+		background-image:url('Images/pic0.jpg');
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-size:2000px 2000px;
+	margin:0;
+	padding:0;
+	background-position:center;
+		
+	
+	}
+
+	
+header{
+	background: black;
+	color: white;
+	padding: 8px opx 6px 40px;
+	height: 40px;
+}
+
+header h1{
+	display:inline;
+	font-family:"Oswald",sans-serif;
+	font-weight: 400;
+	font-size:32px;
+	float: left;
+	margin-top: 0px;
+	margin-right:10px;
+	
+}
+nav ul{
+		display:inline;
+		padding:0px;
+		float:left;
+		
+}
+nav ul li{
+	display: inline-block;
+	list-style-type:none;
+	color:white;
+	float:left;
+	margin-left:8px;
+	padding: 0px 0px 10px 0px;
+}
+
+nav ul li a{
+	color:white;
+	text-decoration:none;
+}
+	
+.homered{
+	background-color:#0000FF;
+	padding:5px 5px 7px 5px;
+}
+
+.divider{
+	background-color:#0000FF;
+	height:5px;
+}
+
+.homeblack:hover{
+	background-color: blue;
+	padding: 6px 6px 7px 6px;
+}
+
+
+.icon-bar{
+	position:fixed;
+	top:50%;
+	transform:translateY(-50%);
+	right:0;
+
+	
+}
+.icon-bar a{
+	display:block;
+	text-align:center;
+	padding:16px;
+	transition: all 0.3s ease;
+	color:white;
+	font-size:20px;
+}
+ .icon-bar a:hover{
+	 background-color:#000;
+ }
+ 
+ .facebook{
+	 background:#3B5998;
+	 color:white;
+ }
+ .twitter{
+	 background:#55ACEE;
+	 color:white;
+ }
+ .google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+h2{
+	border-left:13px solid 	#0000FF;
+	padding: 0px;
+	text-align:left;
+	margin-left:2px;
+	
+}
+
+.himage{
+	width:5px;
+	height:5px;
+}
+
+	 
+.column {
+    float: left;
+    
+	margin:0px;
+    padding: 10px;
+   
+	box-sizing: border-box;
+    width: 435px;
+    height: 500px;
+    padding: 30px; 
+
+	border-left:1px solid 	#0000FF;
+	
+    
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p{
+	border-left:10px solid 	#0000FF;
+	padding: 0px;
+	text-align:left;
+	margin-right:0px;
+}
+
+.column1 {
+    float: left;
+    
+	margin:0px;
+    padding: 0px;
+   
+	box-sizing: border-box;
+    width: 260px;
+    height: 250px;
+    padding: 30px; 
+
+	border-left:5px solid #0000FF;
+	
+    
+}
+/* ----- Footer ----- */
+
+
+#templatemo_footer {
+	
+	float: left;
+	padding: 25px;
+	width: 1300px;
+	color: #FFF;
+	text-align: left;
+	background:#0000FF;
+}
+
+.footer_leftcol {
+	float: left;
+	width: 400px;
+	padding: 0 0 0 10px;
+	margin-right: 25px;
+}
+
+.footer_rightcol {
+	float: right;
+	text-align: right;
+	width: 435px;
+	text-align: right;
+}
+
+.footer_subcol {
+	float: left;
+	width: 120px;
+	margin-left: 25px;
+}
+
+
+
+#templatemo_footer a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#templatemo_footer a:hover{
+	color: #FFF;
+	text-decoration: underline;
+}
+
+/* ----- End of Footer ----- */	
+	
+	
+	
+	
+	
+	
+	
+	
